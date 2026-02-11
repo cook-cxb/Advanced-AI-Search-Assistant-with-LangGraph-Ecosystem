@@ -1,4 +1,3 @@
-# Advanced-AI-Search-Assistant-with-LangGraph-Ecosystem
 # Advanced AI Search Assistant with LangGraph Ecosystem
 
 A stateful, iterative AI Research Assistant built with **LangGraph** and **LangChain**. This project demonstrates how to build complex, multi-step agentic workflows that can search the web, synthesize information, and maintain state over multiple research loops.
