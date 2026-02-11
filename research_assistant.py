@@ -25,7 +25,7 @@ llm = ChatOpenAI(
 # Complete state structure with memory
 class ResearchState(TypedDict):
     topic: str
-    research_questions: List[str]
+    research_questions: List[str]   
     search_queries: List[str]
     search_results: List[str]
     key_findings: List[str]
