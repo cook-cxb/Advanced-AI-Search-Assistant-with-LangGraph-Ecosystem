@@ -16,7 +16,7 @@ print("=" * 50)
 print("Combining all LangGraph concepts into a working assistant!")
 
 # Initialize LLM
-llm = ChatOpenAI(
+llm = ChatOpenAI(   
     model="openai/gpt-4.1-mini", 
     api_key=os.getenv("OPENAI_API_KEY"),
     base_url=os.getenv("OPENAI_API_BASE")
