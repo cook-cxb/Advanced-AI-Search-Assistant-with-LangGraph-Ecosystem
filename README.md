@@ -46,7 +46,7 @@ The assistant operates as a **Stateful Graph**:
 ## 🛠️ Installation & Setup
 
 ### 1. Clone the Repository
-```bash
+bash
 git clone [https://github.com/cook-cxb/Advanced-AI-Search-Assistant-with-LangGraph-Ecosystem.git](https://github.com/cook-cxb/Advanced-AI-Search-Assistant-with-LangGraph-Ecosystem.git)
 cd Advanced-AI-Search-Assistant-with-LangGraph-Ecosystem```
 
@@ -73,3 +73,24 @@ Pull the Llama 3.1 model:
 
 ollama run llama3.1
 
+💻 Usage
+Launching the AI Assistant (Web UI)
+Run the Streamlit app to start searching:
+
+Bash
+
+# For OpenAI version
+streamlit run streamlit_app.py
+
+# For Local LLM version
+streamlit run streamlit_app_local_llm.py
+Running Educational Demos
+To understand how LangGraph works under the hood, run any of the demo scripts:
+
+Bash
+
+python loops_demo.py
+python memory_demo.py
+python edges_routing_demo.py
+📜 License
+This project is licensed under the MIT License - see the LICENSE file for details.
