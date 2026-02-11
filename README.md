@@ -48,7 +48,7 @@ The assistant operates as a **Stateful Graph**:
 ### 1. Clone the Repository
 ```bash
 git clone [https://github.com/cook-cxb/Advanced-AI-Search-Assistant-with-LangGraph-Ecosystem.git](https://github.com/cook-cxb/Advanced-AI-Search-Assistant-with-LangGraph-Ecosystem.git)
-cd Advanced-AI-Search-Assistant-with-LangGraph-Ecosystem
+cd Advanced-AI-Search-Assistant-with-LangGraph-Ecosystem```
 
 
 ## Install Dependencies
