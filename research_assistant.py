@@ -57,7 +57,7 @@ def input_processor_node(state: ResearchState):
 def question_generator_node(state: ResearchState):
     """Generate research questions"""
     print(f"\n❓ Question Generator Node")
-    
+       
     prompt = f"""Generate 3 specific research questions about: {state['topic']}
     Questions should be searchable and factual.
     Return only the questions, one per line:"""
