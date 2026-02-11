@@ -49,3 +49,27 @@ The assistant operates as a **Stateful Graph**:
 ```bash
 git clone [https://github.com/cook-cxb/Advanced-AI-Search-Assistant-with-LangGraph-Ecosystem.git](https://github.com/cook-cxb/Advanced-AI-Search-Assistant-with-LangGraph-Ecosystem.git)
 cd Advanced-AI-Search-Assistant-with-LangGraph-Ecosystem
+
+
+## Install Dependencies
+```pip install -r requirements.txt
+
+### 2.Environment Configuration
+
+Create a .env file in the root directory:
+```bash
+OPENAI_API_KEY=your_openai_api_key_here
+# Optional: For LangSmith tracing
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_API_KEY=your_langchain_api_key
+
+### 4. Local LLM Setup (Optional)
+If you wish to run the assistant locally:
+
+Install [Ollama](ollama.com).
+Pull the Llama 3.1 model:
+
+```Bash
+
+ollama run llama3.1
+
