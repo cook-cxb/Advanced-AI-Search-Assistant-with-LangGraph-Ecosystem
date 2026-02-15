@@ -78,7 +78,7 @@ def question_generator_node(state: ResearchState):
     questions = [q.strip() for q in questions if q.strip()][:3]
     
     all_questions = state.get("research_questions", []) + questions
-    
+     
     return {
         "research_questions": all_questions,
         "status": "questions_generated",
