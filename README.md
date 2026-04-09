@@ -26,7 +26,7 @@ The assistant operates as a **Stateful Graph**:
 
 1.  **START:** Receives a user query.
 2.  **Search Node:** Formulates search queries and fetches results.
-3.  **Process Node:** Filters and synthesizes information.
+3.  **Process Node:** Filters and synthesizes information. 
 4.  **Reflect/Loop:** Determines if more information is needed. If yes, it loops back; if no, it proceeds to finalization.
 5.  **END:** Generates a comprehensive final report.
 
