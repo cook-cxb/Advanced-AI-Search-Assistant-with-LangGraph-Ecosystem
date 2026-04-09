@@ -18,7 +18,7 @@ It supports both **Cloud LLMs** (GPT-4) and **Local LLMs** (via Ollama/Llama 3.1
 * **Component Demos:** Includes standalone scripts to learn LangGraph primitives (Nodes, Edges, Memory, and Loops).
 
 
----
+--- 
 
 ## 🏗️ Project Architecture
 
