@@ -19,7 +19,7 @@ It supports both **Cloud LLMs** (GPT-4) and **Local LLMs** (via Ollama/Llama 3.1
 
 
 --- 
-
+ 
 ## 🏗️ Project Architecture
 
 The assistant operates as a **Stateful Graph**:
