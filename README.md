@@ -2,7 +2,7 @@
 
 A stateful, iterative AI Research Assistant built with **LangGraph** and **LangChain**. This project demonstrates how to build complex, multi-step agentic workflows that can search the web, synthesize information, and maintain state over multiple research loops.
 
-It supports both **Cloud LLMs** (GPT-4) and **Local LLMs** (via Ollama/Llama 3.1), providing a flexible environment for privacy-focused or production-grade research.
+It supports both **Cloud LLMs** (GPT-4) and **Local LLMs** (via Ollama/Llama 3.1), providing a flexible environment for privacy-focused or production-grade research. 
 
 
 ---
